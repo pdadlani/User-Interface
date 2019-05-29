@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 1000px;
 }
 ol, ul {
 	list-style: none;
@@ -68,56 +69,88 @@ h1, h2, h3, h4, h5 {
 nav a {
 	color: grey;
 	text-decoration: none;
-	padding: 40px 38px 40px 30px;
 	text-align: center;
+	margin: 2.5%;
+	padding-top: -10%;
 }
 
 nav {
-	margin: 55px;
+	margin: 2%;
+	width: 1500px;
+}
+
+/* do NOT change image width, it is perfect */
+nav img {
+	width: 23%;
 }
 
 header {
 	column-count: 2;
 }
 
-h1 {
-	font-size: 80px;
-	text-align: center;
-	width: 600px;
+hr {
+	display: block;
+	margin-left: 8%;
+	margin-right: auto;
+	width: 97%;
 }
 
-div {
+h1 {
+	font-size: 525%;
+	text-align: center;
+	width: 75%;
+	margin: 5px 10px 0px 10px;
+	padding: 20%;
+	margin-left: 10%;
+	display: inline-block;
+}
+
+button {
 	font-size: 15px;
-	width: 150px;
+	width: 39%;
 	border: 0.5px solid black;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
-	margin: 50px
+	text-align: center;
+	margin-left: 45%;
+	margin-top: -500%;
 }
 
 
 section {
-	margin: 55px;
+	margin-top: 40px;
+	margin-left: 80px;
+	width: 1000px;
 }
 
-section.top {
+h2 {
+	font-size: 110%;
+}
+
+.top {
 	column-count: 2;
-	column-width: 50%;
+	column-gap: 1.2%;
+	padding: 10px;
+}
+
+.middle-img {
+	margin-left: 5%;
 }
 
 
-section.bottom {
+.bottom {
 	column-count: 3;
+	column-gap: 1.2%;
 }
 
 p {
-	width: 400px;
 	font-size: 18px;
 }
 
 .contact {
-	margin: 55px;
+	margin: 85px;
 }
+
 .extra {
 	padding: 15px 0px 15px 0px;
 }
